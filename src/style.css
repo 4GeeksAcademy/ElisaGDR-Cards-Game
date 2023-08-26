@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.bg-vivid-green {
+  background-color: #008300;
+}
+.custom-card {
+  width: 250px;
+  height: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.icono {
+  height: 60px;
+}
+.centro {
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 600%;
+}
+.up {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5px;
+  font-size: 400%;
+}
+.down {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  font-size: 400%;
+}
